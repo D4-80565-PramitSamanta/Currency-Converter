@@ -1,0 +1,83 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.CurrencyConverter{
+    box-shadow: 0px 4px 16px 2px rgb(146, 146, 146);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+.CurrencyConverter > .title{
+    display: flex;
+    align-items: center;
+}
+.CurrencyConverter > .title > svg{
+    width: 30px;
+    margin-right: 10px;
+    color: rgba(210, 105, 30, 0.5);
+    
+}
+#conform > div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+label{
+    font-weight: 400;
+    margin: 10px;
+}
+input,select{
+    padding: 6px;
+    margin: 0px -10px;
+    border: 1px solid gray;
+    box-shadow: 0px .5px 14px 1px gray;
+    border-radius: 10px;
+}
+button{
+    display: block;
+    margin: 40px auto 80px;
+    height: 30px;
+    width: 80%;
+     /* width: 20%; */
+    /* margin-left: 50px;
+    margin-right: 10px;  */
+    /* margin-top: 50px auto 30px auto; */
+    /* margin-bottom: 30px; */
+    background-color: rgba(185, 251, 255, 0.543);
+    border: 2px solid rgb(78, 168, 117);
+    cursor: pointer;
+    box-shadow: 0px .1px 10px .1px rgba(180, 83, 255, 0.772);
+    border-radius: 5px;
+}
+
+#Result{
+    width: 100%;
+    margin: 20px 0;
+    font-weight: 400;
+}
+#Result.error{
+    background-color: rgba(255, 0, 0, 0.416);
+    color: white;
+    padding: 20px;
+}
+#Result{
+    visibility: hidden;
+    margin-top: -40px;
+    font-size: 20px;
+    font-family: serif;
+    color: rgb(28, 62, 69);
+}
